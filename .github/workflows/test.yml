@@ -1,0 +1,24 @@
+name: test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: install tools from asdf config
+        uses: ai/asdf-cache-action@v1
+
+      - name: install dependencies
+        run: pnpm install --ignore-scripts --frozen-lockfile
+
+      - name: test
+        run: pnpm test

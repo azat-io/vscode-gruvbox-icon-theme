@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "nodenext",
+    "preserveValueImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "module": "nodenext",
+    "types": ["node"],
+    "allowJs": false,
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["./dist/"]
+}

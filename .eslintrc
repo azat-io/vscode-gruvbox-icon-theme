@@ -1,0 +1,23 @@
+{
+  "extends": "@logux/eslint-config/ts",
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          ["type"],
+          ["builtin", "external"],
+          ["internal"],
+          ["parent", "sibling", "index"]
+        ],
+        "pathGroups": [
+          {
+            "pattern": "~/**",
+            "group": "internal"
+          }
+        ],
+        "newlines-between": "always"
+      }
+    ]
+  }
+}

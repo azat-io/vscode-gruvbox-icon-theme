@@ -1,0 +1,69 @@
+{
+  "name": "vscode-gruvbox-icon-theme",
+  "displayName": "Gruvbox Icon Theme",
+  "description": "Gruvbox style icons for Visual Studio Code",
+  "version": "0.1.0",
+  "type": "module",
+  "repository": "azat-io/vscode-gruvbox-icon-theme",
+  "author": "Azat S. <to@azat.io>",
+  "publisher": "azat-io",
+  "license": "MIT",
+  "keywords": [
+    "icons",
+    "theme",
+    "gruvbox",
+    "icon-theme",
+    "customization"
+  ],
+  "engines": {
+    "node": ">=19",
+    "vscode": "^1.75.0"
+  },
+  "icon": "assets/logo.png",
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "gruvbox-icon-theme",
+        "label": "Gruvbox Icon Theme",
+        "path": "./dist/extension.json",
+        "_watch": true
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsm ./extension/index.ts",
+    "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
+    "release:changelog": "standard-version --infile changelog.md --same-file --skip.bump --skip.commit --skip.tag",
+    "release:check": "pnpm test && pnpm build",
+    "release:publish": "vsce package --no-dependencies && vsce publish --no-dependencies",
+    "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md\" --commit \"build: publish v%s\" --tag --all",
+    "lint": "eslint .",
+    "test:types": "tsc --noEmit --pretty",
+    "test": "pnpm test:types && pnpm lint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@logux/eslint-config": "^48.0.0",
+    "@types/node": "^18.11.19",
+    "@types/vscode": "^1.75.0",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.33.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prefer-let": "^3.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "simple-git-hooks": "^2.8.1",
+    "standard-version": "^9.5.0",
+    "tsm": "^2.3.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.4"
+  }
+}

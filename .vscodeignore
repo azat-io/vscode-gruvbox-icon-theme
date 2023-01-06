@@ -1,0 +1,14 @@
+.github/
+data/
+extension/
+node_modules/
+typings/
+.commitlintrc
+.editorconfig
+.env
+.eslintrc
+.prettierrc
+.simple-git-hooks.json
+.tool-versions
+pnpm-lock.yaml
+tsconfig.json
