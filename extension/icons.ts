@@ -1,3 +1,4 @@
+import { languagesIcons } from '../data/languages.js'
 import { baseIcons } from '../data/base.js'
 
 interface IconSchema {
@@ -46,25 +47,43 @@ interface IconSchema {
 
 let getIcons = (): IconSchema => {
   let iconDefinitions = {}
+  let fileExtensions = {}
   let light = {
     file: 'file_light',
   }
-  baseIcons.forEach(({ id, light: lightValue }) => {
-    Object.assign(iconDefinitions, {
-      [id]: {
-        iconPath: `../icons/base/${id}.svg`,
-      },
-    })
-    if (lightValue) {
+  let addIconDefinition =
+    (type: string) =>
+    ({ id, light: lightValue }: { id: string; light?: boolean }): void => {
       Object.assign(iconDefinitions, {
-        [`${id}_light`]: {
-          iconPath: `../icons/base/${id}-light.svg`,
+        [id]: {
+          iconPath: `../icons/${type}/${id}.svg`,
         },
       })
+      if (lightValue) {
+        Object.assign(iconDefinitions, {
+          [`${id}_light`]: {
+            iconPath: `../icons/${type}/${id}-light.svg`,
+          },
+        })
+      }
     }
+  baseIcons.forEach(addIconDefinition('base'))
+  languagesIcons.forEach(addIconDefinition('languages'))
+  languagesIcons.forEach(({ id, extensions }) => {
+    Object.assign(
+      fileExtensions,
+      extensions.reduce(
+        (accumulator, extension) => ({
+          ...accumulator,
+          [extension]: id,
+        }),
+        {},
+      ),
+    )
   })
   return {
     iconDefinitions,
+    fileExtensions,
     light,
     file: 'file',
     folder: 'folder',
