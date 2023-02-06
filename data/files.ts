@@ -33,4 +33,10 @@ export let filesIcons: FileIcon[] = [
       '.node-version',
     ],
   },
+  {
+    id: 'pnpm',
+    name: 'pnpm',
+    files: ['pnpm-lock.yaml', 'pnpm-workspace.yaml', '.pnpmfile.cjs'],
+    light: true,
+  },
 ]

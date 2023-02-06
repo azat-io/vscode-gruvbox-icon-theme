@@ -1,6 +1,7 @@
 import { languagesIcons } from '../data/languages.js'
 import { filesIcons } from '../data/files.js'
 import { baseIcons } from '../data/base.js'
+import { merge } from '../utils/merge.js'
 
 interface IconSchema {
   iconDefinitions: {
@@ -84,7 +85,7 @@ let getIcons = (): IconSchema => {
       ),
     )
   })
-  filesIcons.forEach(({ id, files }) => {
+  filesIcons.forEach(({ id, files, light: lightValue }) => {
     Object.assign(
       fileNames,
       files.reduce(
@@ -95,6 +96,17 @@ let getIcons = (): IconSchema => {
         {},
       ),
     )
+    if (lightValue) {
+      light = merge(light, {
+        fileNames: files.reduce(
+          (accumulator, file) => ({
+            ...accumulator,
+            [file]: `${id}_light`,
+          }),
+          {},
+        ),
+      })
+    }
   })
   return {
     iconDefinitions,
