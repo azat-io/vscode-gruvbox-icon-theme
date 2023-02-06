@@ -31,4 +31,9 @@ export let languagesIcons: LanguageIcon[] = [
     name: 'TypeScript',
     extensions: ['typescript', 'ts'],
   },
+  {
+    id: 'vue',
+    name: 'Vue',
+    extensions: ['vue'],
+  },
 ]
