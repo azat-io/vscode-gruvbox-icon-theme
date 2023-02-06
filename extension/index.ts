@@ -1,11 +1,10 @@
-import { fileURLToPath } from 'url'
 import path from 'path'
 import fs from 'fs'
 
+import { getDirname } from '../utils/get-dirname.js'
 import { icons } from './icons.js'
 
-let __filename = fileURLToPath(import.meta.url)
-let __dirname = path.dirname(__filename)
+let __dirname = getDirname(import.meta.url)
 
 let destination = path.join(__dirname, '/../dist')
 
