@@ -27,6 +27,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['markdown', 'md'],
   },
   {
+    id: 'react',
+    name: 'React',
+    extensions: ['jsx', 'tsx'],
+  },
+  {
     id: 'typescript',
     name: 'TypeScript',
     extensions: ['typescript', 'ts'],
