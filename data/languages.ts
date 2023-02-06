@@ -27,6 +27,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['markdown', 'md'],
   },
   {
+    id: 'postcss',
+    name: 'PostCSS',
+    extensions: ['pcss'],
+  },
+  {
     id: 'python',
     name: 'Python',
     extensions: ['py', 'pyc', 'pyd', 'pyo', 'pyw', 'pyz', 'pyi'],
