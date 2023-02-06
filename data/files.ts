@@ -2,6 +2,11 @@ import type { FileIcon } from '../typings/index.d.js'
 
 export let filesIcons: FileIcon[] = [
   {
+    id: 'editorconfig',
+    name: 'EditorConfig',
+    files: ['.editorconfig', 'editorconfig'],
+  },
+  {
     id: 'eslint',
     name: 'ESLint',
     files: [
