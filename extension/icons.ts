@@ -1,4 +1,5 @@
 import { languagesIcons } from '../data/languages.js'
+import { filesIcons } from '../data/files.js'
 import { baseIcons } from '../data/base.js'
 
 interface IconSchema {
@@ -48,6 +49,7 @@ interface IconSchema {
 let getIcons = (): IconSchema => {
   let iconDefinitions = {}
   let fileExtensions = {}
+  let fileNames = {}
   let light = {
     file: 'file_light',
   }
@@ -69,6 +71,7 @@ let getIcons = (): IconSchema => {
     }
   baseIcons.forEach(addIconDefinition('base'))
   languagesIcons.forEach(addIconDefinition('languages'))
+  filesIcons.forEach(addIconDefinition('files'))
   languagesIcons.forEach(({ id, extensions }) => {
     Object.assign(
       fileExtensions,
@@ -81,9 +84,22 @@ let getIcons = (): IconSchema => {
       ),
     )
   })
+  filesIcons.forEach(({ id, files }) => {
+    Object.assign(
+      fileNames,
+      files.reduce(
+        (accumulator, file) => ({
+          ...accumulator,
+          [file]: id,
+        }),
+        {},
+      ),
+    )
+  })
   return {
     iconDefinitions,
     fileExtensions,
+    fileNames,
     light,
     file: 'file',
     folder: 'folder',

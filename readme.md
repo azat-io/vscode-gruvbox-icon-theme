@@ -10,6 +10,10 @@ This extension includes Gruvbox style icons for Visual Studio Code. The main foc
 
 ![VS Code Gruvbox languages icons](https://raw.githubusercontent.com/azat-io/vscode-gruvbox-icon-theme/main/assets/languages.png)
 
+### Files
+
+![VS Code Gruvbox files icons](https://raw.githubusercontent.com/azat-io/vscode-gruvbox-icon-theme/main/assets/files.png)
+
 ## Contributing
 
 Pull requests are welcome.

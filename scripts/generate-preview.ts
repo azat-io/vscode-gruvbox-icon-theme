@@ -3,6 +3,7 @@ import fs from 'fs'
 
 import { languagesIcons } from '../data/languages.js'
 import { getDirname } from '../utils/get-dirname.js'
+import { filesIcons } from '../data/files.js'
 
 let __dirname = getDirname(import.meta.url)
 
@@ -89,4 +90,7 @@ let createScreenshot = async (
   }
 }
 
-await createScreenshot('languages', languagesIcons)
+await Promise.all([
+  createScreenshot('languages', languagesIcons),
+  createScreenshot('files', filesIcons),
+])
