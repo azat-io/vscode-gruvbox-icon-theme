@@ -32,6 +32,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['jsx', 'tsx'],
   },
   {
+    id: 'svelte',
+    name: 'Svelte',
+    extensions: ['svelte'],
+  },
+  {
     id: 'svg',
     name: 'SVG',
     extensions: ['svg'],
