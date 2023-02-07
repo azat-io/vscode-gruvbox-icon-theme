@@ -12,6 +12,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['htm', 'html'],
   },
   {
+    id: 'java',
+    name: 'Java',
+    extensions: ['java', 'jsp'],
+  },
+  {
     id: 'javascript',
     name: 'JavaScript',
     extensions: ['javascript', 'js', 'mjs'],
