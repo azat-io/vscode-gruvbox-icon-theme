@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.2.0...v0.4.0) (2023-02-07)
+
+
+### Features
+
+* add browserslist icon ([e88f368](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e88f368f8f61c97294aed6b9c22bec4755de54dc))
+* add c# icon ([c53573e](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c53573e429c4bc949fc37c12925b6afeee1efaf8))
+* add editorconfig icon ([4254eb0](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/4254eb0ae2eff78ff790f6c41cc1f156f4e39302))
+* add eslint icon ([d4d63b3](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/d4d63b3235b1787d46faa283e15edbb0110c4fdf))
+* add git icon ([4733002](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/4733002482dd4c926868898b9e3fe418ab5172a0))
+* add haskell icon ([e191355](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e1913556f3b973d693a09f870e5636bcfd807b17))
+* add java icon ([6749f87](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/6749f87fc9fb42466dceae892abc9f549ac9c72e))
+* add markdown icon ([b5ee2e5](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/b5ee2e5bec192ae777871c99494265068bd1ed17))
+* add nodejs icon ([78ebfdc](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/78ebfdc26f01fde7bc03ca20d4ef664b93bb372c))
+* add pnpm icon ([e8e7ae4](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e8e7ae459662b01aab557a5347b49b6058305aac))
+* add postcss icon ([be99edc](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/be99edc486edea29a467ed5b29800e92c2a04ade))
+* add prettier icon ([26fb865](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/26fb86580cf3fd2ec51cf1ef4a261d52cef84211))
+* add python icon ([070f8a1](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/070f8a17c06327a292aeea1c0e36191ed850b6d4))
+* add react icon ([20218bb](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/20218bb3278790d7e2f59d3a4a8929108c8a25ab))
+* add ruby icon ([b1888be](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/b1888becc4e6fa12429012907538d3f00db63f25))
+* add sass icon ([a99db73](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/a99db731431012b7c90550cfa4ed6b0a25f3f407))
+* add stylelint icon ([4436f0c](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/4436f0ce41ee9d5c97cacb77eb36fcff74b80396))
+* add svelte icon ([5374060](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/53740606fe75f014bae0fbccdc3db3cf93566d16))
+* add svg icon ([cabfa5d](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/cabfa5d4c57ecfb3333ce16d5383c3e199d35589))
+* add swift icon ([dfc0343](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/dfc0343834fa95fac56294d240b237c530bb2f1f))
+* add vite icon ([91f04af](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/91f04afe91263af40773e56963e3b6183d6ad1db))
+* add vitest icon ([8d40e70](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/8d40e70ffcdb92a043da98f78feda7b44dbc6a22))
+* add vue icon ([7fa39c7](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/7fa39c76d5b57866abf7ce624dcf86074f455b6d))
+* add webpack icon ([5ead658](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/5ead65887b6e65cdd27cad142b43a9781b4f702d))
+* add yarn icon ([bd4f26a](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/bd4f26a95a5f42be337c24818e7c66fbeddc6500))
+
+
+### Bug Fixes
+
+* fix icons loading ([4b51cf9](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/4b51cf93d789835e8d147b91059f0614387a5427))
+* update assets generation command ([45a2e21](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/45a2e219e26a9e90f55cd6129d594007bd4b64fe))
+
 ## [0.3.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.2.0...v0.3.0) (2023-02-06)
 
 
