@@ -78,6 +78,18 @@ export let filesIcons: FileIcon[] = [
     light: true,
   },
   {
+    id: 'vite',
+    name: 'Vite',
+    files: [
+      'vite.config.js',
+      'vite.config.mjs',
+      'vite.config.cjs',
+      'vite.config.ts',
+      'vite.config.cts',
+      'vite.config.mts',
+    ],
+  },
+  {
     id: 'webpack',
     name: 'Webpack',
     files: [
