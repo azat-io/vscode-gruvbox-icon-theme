@@ -60,4 +60,17 @@ export let filesIcons: FileIcon[] = [
     files: ['pnpm-lock.yaml', 'pnpm-workspace.yaml', '.pnpmfile.cjs'],
     light: true,
   },
+  {
+    id: 'yarn',
+    name: 'Yarn',
+    files: [
+      '.yarnrc',
+      'yarn.lock',
+      '.yarnclean',
+      '.yarn-integrity',
+      'yarn-error.log',
+      '.yarnrc.yml',
+      '.yarnrc.yaml',
+    ],
+  },
 ]
