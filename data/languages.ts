@@ -7,6 +7,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['css'],
   },
   {
+    id: 'haskell',
+    name: 'Haskell',
+    extensions: ['hs', 'lhs'],
+  },
+  {
     id: 'html',
     name: 'HTML',
     extensions: ['htm', 'html'],
