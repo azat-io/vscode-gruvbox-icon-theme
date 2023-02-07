@@ -19,6 +19,10 @@
     "node": ">=19",
     "vscode": "^1.75.0"
   },
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#1D2021"
+  },
   "icon": "assets/logo.png",
   "categories": [
     "Themes",
