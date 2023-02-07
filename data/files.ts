@@ -28,6 +28,22 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'git',
+    name: 'Git',
+    files: [
+      '.gitignore',
+      '.git-blame-ignore',
+      '.gitignore-global',
+      '.gitignore_global',
+      '.gitconfig',
+      '.gitattributes',
+      '.gitmodules',
+      '.gitkeep',
+      '.gitinclude',
+      'git-history',
+    ],
+  },
+  {
     id: 'nodejs',
     name: 'NodeJS',
     files: [
