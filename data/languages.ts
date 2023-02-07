@@ -77,6 +77,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['svg'],
   },
   {
+    id: 'swift',
+    name: 'Swift',
+    extensions: ['swift'],
+  },
+  {
     id: 'typescript',
     name: 'TypeScript',
     extensions: ['typescript', 'ts'],
