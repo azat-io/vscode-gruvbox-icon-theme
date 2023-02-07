@@ -61,6 +61,23 @@ export let filesIcons: FileIcon[] = [
     light: true,
   },
   {
+    id: 'stylelint',
+    name: 'StyleLint',
+    files: [
+      '.stylelintrc',
+      'stylelint.config.js',
+      'stylelint.config.cjs',
+      '.stylelintrc.json',
+      '.stylelintrc.yaml',
+      '.stylelintrc.yml',
+      '.stylelintrc.js',
+      '.stylelintrc.cjs',
+      '.stylelintignore',
+      '.stylelintcache',
+    ],
+    light: true,
+  },
+  {
     id: 'webpack',
     name: 'Webpack',
     files: [
