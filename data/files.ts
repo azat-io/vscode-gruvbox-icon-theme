@@ -90,6 +90,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'vitest',
+    name: 'Vitest',
+    files: [
+      'vitest.config.ts',
+      'vitest.config.mts',
+      'vitest.config.cts',
+      'vitest.config.js',
+      'vitest.config.mjs',
+      'vitest.config.cjs',
+    ],
+  },
+  {
     id: 'webpack',
     name: 'Webpack',
     files: [
