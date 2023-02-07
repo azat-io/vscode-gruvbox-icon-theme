@@ -61,6 +61,23 @@ export let filesIcons: FileIcon[] = [
     light: true,
   },
   {
+    id: 'prettier',
+    name: 'Prettier',
+    files: [
+      '.prettierrc',
+      'prettier.config.js',
+      'prettier.config.cjs',
+      '.prettierrc.js',
+      '.prettierrc.cjs',
+      '.prettierrc.json',
+      '.prettierrc.json5',
+      '.prettierrc.yaml',
+      '.prettierrc.yml',
+      '.prettierignore',
+      '.prettierrc.toml',
+    ],
+  },
+  {
     id: 'stylelint',
     name: 'StyleLint',
     files: [
