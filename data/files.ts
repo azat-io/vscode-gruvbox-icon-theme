@@ -2,6 +2,28 @@ import type { FileIcon } from '../typings/index.d.js'
 
 export let filesIcons: FileIcon[] = [
   {
+    id: 'babel',
+    name: 'Babel',
+    files: [
+      '.babelrc',
+      '.babelrc.cjs',
+      '.babelrc.js',
+      '.babelrc.mjs',
+      '.babelrc.json',
+      'babel.config.cjs',
+      'babel.config.js',
+      'babel.config.mjs',
+      'babel.config.json',
+      'babel-transform.js',
+      '.babel-plugin-macrosrc',
+      '.babel-plugin-macrosrc.json',
+      '.babel-plugin-macrosrc.yaml',
+      '.babel-plugin-macrosrc.yml',
+      '.babel-plugin-macrosrc.js',
+      'babel-plugin-macros.config.js',
+    ],
+  },
+  {
     id: 'browserslist',
     name: 'Browserslist',
     files: ['browserslist', '.browserslistrc'],
