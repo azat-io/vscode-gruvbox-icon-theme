@@ -72,6 +72,23 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['sass', 'scss'],
   },
   {
+    id: 'storybook',
+    name: 'Storybook',
+    extensions: [
+      'stories.js',
+      'stories.jsx',
+      'stories.mdx',
+      'story.js',
+      'story.jsx',
+      'stories.ts',
+      'stories.tsx',
+      'story.ts',
+      'story.tsx',
+      'stories.svelte',
+      'story.mdx',
+    ],
+  },
+  {
     id: 'svelte',
     name: 'Svelte',
     extensions: ['svelte'],
