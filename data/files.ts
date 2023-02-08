@@ -44,6 +44,11 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'makefile',
+    name: 'Makefile',
+    files: ['makefile', 'gnumakefile', 'kbuild'],
+  },
+  {
     id: 'nodejs',
     name: 'NodeJS',
     files: [
