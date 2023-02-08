@@ -12,6 +12,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['css'],
   },
   {
+    id: 'graphql',
+    name: 'GraphQL',
+    extensions: ['graphql', 'gql'],
+  },
+  {
     id: 'haskell',
     name: 'Haskell',
     extensions: ['hs', 'lhs'],
