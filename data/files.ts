@@ -66,6 +66,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'gulp',
+    name: 'Gulp',
+    files: [
+      'gulpfile.js',
+      'gulpfile.mjs',
+      'gulpfile.ts',
+      'gulpfile.cts',
+      'gulpfile.mts',
+      'gulpfile.babel.js',
+    ],
+  },
+  {
     id: 'jest',
     name: 'Jest',
     files: [
