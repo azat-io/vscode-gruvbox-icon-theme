@@ -7,6 +7,26 @@ export let filesIcons: FileIcon[] = [
     files: ['browserslist', '.browserslistrc'],
   },
   {
+    id: 'commitlint',
+    name: 'CommitLint',
+    files: [
+      '.commitlintrc',
+      '.commitlintrc.js',
+      '.commitlintrc.cjs',
+      '.commitlintrc.ts',
+      '.commitlintrc.cts',
+      '.commitlintrc.json',
+      '.commitlintrc.yaml',
+      '.commitlintrc.yml',
+      '.commitlint.yaml',
+      '.commitlint.yml',
+      'commitlint.config.js',
+      'commitlint.config.cjs',
+      'commitlint.config.ts',
+      'commitlint.config.cts',
+    ],
+  },
+  {
     id: 'docker',
     name: 'Docker',
     files: [
