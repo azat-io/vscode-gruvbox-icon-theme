@@ -54,6 +54,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'grunt',
+    name: 'Grunt',
+    files: [
+      'gruntfile.js',
+      'gruntfile.ts',
+      'gruntfile.coffee',
+      'gruntfile.babel.js',
+      'gruntfile.babel.ts',
+      'gruntfile.babel.coffee',
+    ],
+  },
+  {
     id: 'jest',
     name: 'Jest',
     files: [
