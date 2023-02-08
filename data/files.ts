@@ -74,6 +74,11 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'gitlab',
+    name: 'GitLab',
+    files: ['gitlab-ci.yml'],
+  },
+  {
     id: 'grunt',
     name: 'Grunt',
     files: [
