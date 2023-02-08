@@ -91,4 +91,9 @@ export let languagesIcons: LanguageIcon[] = [
     name: 'Vue',
     extensions: ['vue'],
   },
+  {
+    id: 'yaml',
+    name: 'YAML',
+    extensions: ['yaml', 'yml'],
+  },
 ]
