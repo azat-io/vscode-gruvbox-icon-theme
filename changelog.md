@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.4.0...v0.5.0) (2023-02-08)
+
+
+### Features
+
+* add babel icon ([73bc6e0](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/73bc6e027df3fba503b79d14ef77fc3f5219d111))
+* add commitlint icon ([fe0ecda](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/fe0ecda3f47f033cdddb2a502390a3a2642808c8))
+* add docker icon ([b52be10](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/b52be10b2b20a34c7f0f22c3add199a4ac05dbe5))
+* add gitlab icon ([711807b](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/711807bdd9bc2c8a6e47ed4f4aa47d6d234a3bf9))
+* add go icon ([b3f0643](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/b3f06437ab678a417d00698826a5c59e36dfe7ca))
+* add graphql icon ([0a7254e](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/0a7254e2c133135de7bf206a95ba89d42d42ea6b))
+* add grunt icon ([930ce9c](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/930ce9cd8057b13621a59da7681dd2818420026e))
+* add gulp icon ([a23aa44](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/a23aa4440648a6b4ccd04de29b61bd526ceb713f))
+* add jest icon ([fc55ccf](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/fc55ccf04b78a1aab29ffe6e1aa1a6454369b72a))
+* add lua icon ([79c8dc1](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/79c8dc1bf5b85281c2b6ba95266d6e0cfa865150))
+* add makefile icon ([2f151bd](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/2f151bd607efc93e4dafbd896b731bd1642c6d34))
+* add playwright icon ([24dbd46](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/24dbd46d88b023628723773764a0d22466170489))
+* add storybook icon ([1fdbca6](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/1fdbca6e6534de3577e24c3fde81c9d14da847f8))
+* add yaml icon ([c48165f](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c48165f12b081a1e6cb26bfc87bf1f323a205d50))
+
 ## [0.4.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.2.0...v0.4.0) (2023-02-07)
 
 
