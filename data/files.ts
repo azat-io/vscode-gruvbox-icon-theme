@@ -7,6 +7,16 @@ export let filesIcons: FileIcon[] = [
     files: ['browserslist', '.browserslistrc'],
   },
   {
+    id: 'docker',
+    name: 'Docker',
+    files: [
+      'dockerignore',
+      'dockerfile',
+      'docker-compose.yml',
+      'docker-compose.yaml',
+    ],
+  },
+  {
     id: 'editorconfig',
     name: 'EditorConfig',
     files: ['.editorconfig', 'editorconfig'],
