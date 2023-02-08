@@ -132,6 +132,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'playwright',
+    name: 'Playwright',
+    files: [
+      'playwright.config.js',
+      'playwright.config.mjs',
+      'playwright.config.ts',
+      'playwright-ct.config.js',
+      'playwright-ct.config.mjs',
+      'playwright-ct.config.ts',
+    ],
+  },
+  {
     id: 'pnpm',
     name: 'pnpm',
     files: ['pnpm-lock.yaml', 'pnpm-workspace.yaml', '.pnpmfile.cjs'],
