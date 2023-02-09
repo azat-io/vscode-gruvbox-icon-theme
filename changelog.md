@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.5.0...v0.6.0) (2023-02-09)
+
+
+### Features
+
+* add applescript icon ([e563cfe](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e563cfeac14385c8197cac9563e4e0f4c4fb2446))
+* add coffeescript icon ([64d7688](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/64d768881d4418547deca13229b3be59ee7d3a78))
+* add npm icon ([76608a5](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/76608a5fc51c8006ec843ee6dbb099f2beb37e3c))
+* add ocaml icon ([ee1122f](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/ee1122f9f8d68c30c3a1f659dd9fb97e4219659a))
+* add purescript icon ([2f185c9](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/2f185c9588e2c7ba8fd7cd7aee937daedf7fba7b))
+* add rust icon ([e0ee493](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e0ee4935aec4b5f6abb184d50b6d046bb2213f26))
+* add scala icon ([c03d68d](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c03d68d7ec0fbb43b82b61c7cfdf4e624f9bbbfe))
+* add xml icon ([2780ac0](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/2780ac0a15b9db0628850010b6f2594451d5e409))
+* improve javascript and typescript icons ([bd0f749](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/bd0f749fca1285dee9037cc52d71427a21fc5b2b))
+
+
+### Bug Fixes
+
+* reduce pnpm icon size ([ef03f72](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/ef03f7233ff5556aab22dfd488f2ff38347c1c11))
+
 ## [0.5.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.4.0...v0.5.0) (2023-02-08)
 
 
