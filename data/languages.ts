@@ -8,6 +8,11 @@ export let languagesIcons: LanguageIcon[] = [
     light: true,
   },
   {
+    id: 'coffeescript',
+    name: 'CoffeeScript',
+    extensions: ['coffee'],
+  },
+  {
     id: 'csharp',
     name: 'C#',
     extensions: ['cs', 'csx'],
