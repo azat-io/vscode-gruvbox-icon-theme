@@ -2,6 +2,12 @@ import type { LanguageIcon } from '../typings/index.d.js'
 
 export let languagesIcons: LanguageIcon[] = [
   {
+    id: 'applescript',
+    name: 'AppleScript',
+    extensions: ['applescript', 'ipa'],
+    light: true,
+  },
+  {
     id: 'csharp',
     name: 'C#',
     extensions: ['cs', 'csx'],

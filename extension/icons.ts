@@ -73,7 +73,7 @@ let getIcons = (): IconSchema => {
   baseIcons.forEach(addIconDefinition('base'))
   languagesIcons.forEach(addIconDefinition('languages'))
   filesIcons.forEach(addIconDefinition('files'))
-  languagesIcons.forEach(({ id, extensions }) => {
+  languagesIcons.forEach(({ id, extensions, light: lightValue }) => {
     Object.assign(
       fileExtensions,
       extensions.reduce(
@@ -84,6 +84,17 @@ let getIcons = (): IconSchema => {
         {},
       ),
     )
+    if (lightValue) {
+      light = merge(light, {
+        fileExtensions: extensions.reduce(
+          (accumulator, extension) => ({
+            ...accumulator,
+            [extension]: `${id}_light`,
+          }),
+          {},
+        ),
+      })
+    }
   })
   filesIcons.forEach(({ id, files, light: lightValue }) => {
     Object.assign(
