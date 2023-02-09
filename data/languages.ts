@@ -109,6 +109,12 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['rb', 'erb', 'rbw'],
   },
   {
+    id: 'rust',
+    name: 'Rust',
+    extensions: ['rs', 'ron'],
+    light: true,
+  },
+  {
     id: 'sass',
     name: 'Sass',
     extensions: ['sass', 'scss'],
