@@ -120,6 +120,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['sass', 'scss'],
   },
   {
+    id: 'scala',
+    name: 'Scala',
+    extensions: ['scala', 'sc'],
+  },
+  {
     id: 'storybook',
     name: 'Storybook',
     extensions: [
