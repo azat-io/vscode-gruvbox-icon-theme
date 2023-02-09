@@ -88,6 +88,12 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['pcss'],
   },
   {
+    id: 'purescript',
+    name: 'PureScript',
+    extensions: ['purs', 'pure'],
+    light: true,
+  },
+  {
     id: 'python',
     name: 'Python',
     extensions: ['py', 'pyc', 'pyd', 'pyo', 'pyw', 'pyz', 'pyi'],
