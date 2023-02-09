@@ -202,6 +202,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['vue'],
   },
   {
+    id: 'xml',
+    name: 'XML',
+    extensions: ['xml', 'xquery', 'xsl'],
+  },
+  {
     id: 'yaml',
     name: 'YAML',
     extensions: ['yaml', 'yml'],
