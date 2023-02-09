@@ -179,6 +179,11 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'npm',
+    name: 'npm',
+    files: ['.npmignore', '.npmrc'],
+  },
+  {
     id: 'playwright',
     name: 'Playwright',
     files: [
