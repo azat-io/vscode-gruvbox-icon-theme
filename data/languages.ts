@@ -83,6 +83,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['markdown', 'md'],
   },
   {
+    id: 'ocaml',
+    name: 'OCaml',
+    extensions: ['ml', 'mli', 'cmx'],
+  },
+  {
     id: 'postcss',
     name: 'PostCSS',
     extensions: ['pcss'],
