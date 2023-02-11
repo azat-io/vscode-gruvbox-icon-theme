@@ -192,6 +192,11 @@ export let filesIcons: FileIcon[] = [
     files: ['makefile', 'gnumakefile', 'kbuild'],
   },
   {
+    id: 'nginx',
+    name: 'Nginx',
+    files: ['nginx.conf'],
+  },
+  {
     id: 'nodejs',
     name: 'NodeJS',
     files: [

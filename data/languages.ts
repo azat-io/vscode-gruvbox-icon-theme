@@ -171,6 +171,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['markdown', 'md'],
   },
   {
+    id: 'nginx',
+    name: 'Nginx',
+    extensions: ['nginx', 'nginxconfig'],
+  },
+  {
     id: 'ocaml',
     name: 'OCaml',
     extensions: ['ml', 'mli', 'cmx'],
