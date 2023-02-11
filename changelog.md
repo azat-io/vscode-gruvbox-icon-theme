@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.7.0...v0.8.0) (2023-02-11)
+
+
+### Features
+
+* add elm icon ([9da21b8](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/9da21b8480c30f5d0de738a4be2ec29630a0a1ae))
+* add image icon ([c7010bb](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c7010bb2ac26672b8781506be9b8c1bc1c7bfb4f))
+* add nano-staged icon ([05928aa](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/05928aa8153266c36538fb7aa15ad74c12bc2b4a))
+* add nginx icon ([7107ee5](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/7107ee5e2584d0970fd9408299c2c6a0978d0ed0))
+* add perl icon ([8539fff](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/8539fffc43913b368cb74879a269002ab9ad7b4b))
+* add php icon ([e0d9591](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e0d95917b7fda8fde5cd261426d6a42ca5edde1c))
+* add vs code icon ([7449951](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/74499511990180648b5951ca5ae4bd535a712c3d))
+
 ## [0.7.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.6.0...v0.7.0) (2023-02-11)
 
 
