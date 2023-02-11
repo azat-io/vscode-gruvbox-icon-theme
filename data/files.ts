@@ -260,6 +260,18 @@ export let filesIcons: FileIcon[] = [
     light: true,
   },
   {
+    id: 'tailwind',
+    name: 'Tailwind',
+    files: [
+      'tailwind.js',
+      'tailwind.ts',
+      'tailwind.config.js',
+      'tailwind.config.cjs',
+      'tailwind.config.ts',
+      'tailwind.config.cts',
+    ],
+  },
+  {
     id: 'vite',
     name: 'Vite',
     files: [
