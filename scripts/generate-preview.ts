@@ -1,3 +1,5 @@
+import type { BaseIcon } from '../typings/index.d.js'
+
 import puppeteer from 'puppeteer'
 import fs from 'fs'
 
@@ -9,7 +11,7 @@ let __dirname = getDirname(import.meta.url)
 
 let createScreenshot = async (
   iconType: string,
-  icons: { id: string; name: string }[],
+  icons: BaseIcon[],
 ): Promise<void> => {
   try {
     let browser = await puppeteer.launch()
@@ -54,7 +56,6 @@ let createScreenshot = async (
       '</style>',
       '<div class="container">',
         icons
-          .sort((a, b) => a.name.localeCompare(b.name))
           .reduce((accumulator: string[], { id, name }) => [
             ...accumulator,
             '<div class="item">',
@@ -90,7 +91,16 @@ let createScreenshot = async (
   }
 }
 
-await Promise.all([
-  createScreenshot('languages', languagesIcons),
-  createScreenshot('files', filesIcons),
-])
+let formatIconList = (icons: BaseIcon[]): BaseIcon[] =>
+  icons
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .filter(
+      (value, index, self) =>
+        self.findIndex(v => v.id === value.id && v.name === value.name) ===
+        index,
+    )
+
+await createScreenshot(
+  'files',
+  formatIconList([...filesIcons, ...languagesIcons]),
+)

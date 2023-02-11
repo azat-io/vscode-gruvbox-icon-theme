@@ -71,7 +71,7 @@ let getIcons = (): IconSchema => {
       }
     }
   baseIcons.forEach(addIconDefinition('base'))
-  languagesIcons.forEach(addIconDefinition('languages'))
+  languagesIcons.forEach(addIconDefinition('files'))
   filesIcons.forEach(addIconDefinition('files'))
   languagesIcons.forEach(({ id, extensions, light: lightValue }) => {
     Object.assign(
