@@ -49,6 +49,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'cypress',
+    name: 'Cypress',
+    files: [
+      'cypress.json',
+      'cypress.env.json',
+      'cypress.config.ts',
+      'cypress.config.js',
+      'cypress.config.cjs',
+      'cypress.config.mjs',
+    ],
+  },
+  {
     id: 'docker',
     name: 'Docker',
     files: [
