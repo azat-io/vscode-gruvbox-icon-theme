@@ -79,9 +79,10 @@ let createScreenshot = async (
     })
 
     await page.screenshot({
-      path: `assets/${iconType}.png`,
+      path: `assets/${iconType}.webp`,
       omitBackground: true,
       fullPage: true,
+      type: 'webp',
     })
 
     await browser.close()
