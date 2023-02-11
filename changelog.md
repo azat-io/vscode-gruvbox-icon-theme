@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.6.0...v0.7.0) (2023-02-11)
+
+
+### Features
+
+* add c icon ([8807120](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/880712056b73979753ba6667dabfdf99b4818be4))
+* add c++ icon ([c72c4c5](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c72c4c5ac590627d48d7c9bdec296ea38ada8abc))
+* add cypress icon ([7106631](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/71066313c6b658662962c4f8bfdc72aa0327b157))
+* add elixir icon ([0291f40](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/0291f40798366df5b42ee1bb8be656352630255a))
+* add f# icon ([8d99328](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/8d993281c46530efc23a78713e3c39f36fddca66))
+* add husky icon ([dd99ee0](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/dd99ee0983c2b9704634185878390cc4ee6d3aaa))
+* add kotlin icon ([d934495](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/d934495506955f1fb8dc8a1beb09c61901e0e75b))
+* add stylus icon ([c10ec40](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/c10ec40f55cf45853ea813c7d3a658a13d09d8ae))
+* add tailwind icon ([ac0366d](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/ac0366dcccb871dfc42d6ee18f4dce60ff6d101c))
+
+
+### Bug Fixes
+
+* pnpm icon size ([aa7bb2c](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/aa7bb2c90c26bb60c0e127533941de57a8dd1959))
+* update markdown icon ([e934776](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/e9347767dfff954e6e155c133bb12767d0eebc31))
+
 ## [0.6.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.5.0...v0.6.0) (2023-02-09)
 
 
