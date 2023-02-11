@@ -88,6 +88,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['json', 'jsonc', 'json5'],
   },
   {
+    id: 'kotlin',
+    name: 'Kotlin',
+    extensions: ['kt', 'kts'],
+  },
+  {
     id: 'lua',
     name: 'Lua',
     extensions: ['lua'],
