@@ -157,6 +157,11 @@ export let languagesIcons: LanguageIcon[] = [
     ],
   },
   {
+    id: 'stylus',
+    name: 'Stylus',
+    extensions: ['styl'],
+  },
+  {
     id: 'svelte',
     name: 'Svelte',
     extensions: ['svelte'],
