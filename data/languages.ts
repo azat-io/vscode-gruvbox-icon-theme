@@ -13,6 +13,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['coffee'],
   },
   {
+    id: 'c',
+    name: 'C',
+    extensions: ['c'],
+  },
+  {
     id: 'csharp',
     name: 'C#',
     extensions: ['cs', 'csx'],
