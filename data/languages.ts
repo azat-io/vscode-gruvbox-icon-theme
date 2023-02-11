@@ -38,6 +38,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['ex', 'exs', 'eex', 'leex', 'heex'],
   },
   {
+    id: 'elm',
+    name: 'Elm',
+    extensions: ['elm'],
+  },
+  {
     id: 'fsharp',
     name: 'F#',
     extensions: ['fs', 'fsx', 'fsi', 'fsproj'],
