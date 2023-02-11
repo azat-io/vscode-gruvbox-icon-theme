@@ -23,6 +23,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['css'],
   },
   {
+    id: 'elixir',
+    name: 'Elixir',
+    extensions: ['ex', 'exs', 'eex', 'leex', 'heex'],
+  },
+  {
     id: 'go',
     name: 'Go',
     extensions: ['go'],
