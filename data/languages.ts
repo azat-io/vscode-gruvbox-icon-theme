@@ -186,6 +186,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['ml', 'mli', 'cmx'],
   },
   {
+    id: 'perl',
+    name: 'Perl',
+    extensions: ['pl', 'pm', 'raku'],
+  },
+  {
     id: 'php',
     name: 'PHP',
     extensions: ['php'],
