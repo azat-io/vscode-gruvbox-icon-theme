@@ -137,6 +137,18 @@ export let filesIcons: FileIcon[] = [
     ],
   },
   {
+    id: 'husky',
+    name: 'Husky',
+    files: [
+      '.huskyrc',
+      'husky.config.js',
+      '.huskyrc.json',
+      '.huskyrc.js',
+      '.huskyrc.yaml',
+      '.huskyrc.yml',
+    ],
+  },
+  {
     id: 'jest',
     name: 'Jest',
     files: [
