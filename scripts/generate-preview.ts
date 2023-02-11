@@ -53,6 +53,9 @@ let createScreenshot = async (
           'flex-direction: column;',
           'align-items: center;',
         '}',
+        '.name {',
+          'text-align: center;',
+        '}',
       '</style>',
       '<div class="container">',
         icons
@@ -64,7 +67,7 @@ let createScreenshot = async (
                   `${__dirname}/../icons/${iconType}/${id}.svg`
                 ).toString('base64'),
               '" alt="${name}" />',
-              '<p>',
+              '<p class="name">',
                 name,
               '</p>',
             '</div>',
