@@ -285,6 +285,19 @@ export let languagesIcons: LanguageIcon[] = [
     ],
   },
   {
+    id: 'vscode',
+    name: 'VS Code',
+    extensions: [
+      'vscodeignore',
+      'vsixmanifest',
+      'vsix',
+      'code-workplace',
+      'code-workspace',
+      'code-profile',
+      'code-snippets',
+    ],
+  },
+  {
     id: 'vue',
     name: 'Vue',
     extensions: ['vue'],
