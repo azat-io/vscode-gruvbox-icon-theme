@@ -18,6 +18,11 @@ export let languagesIcons: LanguageIcon[] = [
     extensions: ['c'],
   },
   {
+    id: 'cpp',
+    name: 'C++',
+    extensions: ['cc', 'cpp', 'cxx', 'c++', 'cp', 'mm', 'mii', 'ii'],
+  },
+  {
     id: 'csharp',
     name: 'C#',
     extensions: ['cs', 'csx'],
