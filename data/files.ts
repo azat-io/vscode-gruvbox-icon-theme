@@ -192,6 +192,21 @@ export let filesIcons: FileIcon[] = [
     files: ['makefile', 'gnumakefile', 'kbuild'],
   },
   {
+    id: 'nano-staged',
+    name: 'Nano Staged',
+    files: [
+      '.nano-staged.js',
+      'nano-staged.js',
+      '.nano-staged.cjs',
+      'nano-staged.cjs',
+      '.nano-staged.mjs',
+      'nano-staged.mjs',
+      '.nano-staged.json',
+      'nano-staged.json',
+      '.nanostagedrc',
+    ],
+  },
+  {
     id: 'nginx',
     name: 'Nginx',
     files: ['nginx.conf'],
