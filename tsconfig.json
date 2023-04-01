@@ -2,11 +2,9 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "importsNotUsedAsValues": "error",
     "moduleResolution": "nodenext",
-    "preserveValueImports": true,
+    "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "module": "nodenext",
