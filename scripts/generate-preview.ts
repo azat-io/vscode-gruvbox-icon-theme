@@ -64,7 +64,7 @@ let createScreenshot = async (
             '<div class="item">',
               '<img src="data:image/svg+xml;base64,',
                 fs.readFileSync(
-                  `${__dirname}/../icons/${iconType}/${id}.svg`
+                  `${__dirname}/../icons/${iconType}/${id}.svg`,
                 ).toString('base64'),
               '" alt="${name}" />',
               '<p class="name">',

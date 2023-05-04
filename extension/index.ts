@@ -18,6 +18,7 @@ fs.writeFile(
     ...icons,
     hidesExplorerArrows: true,
   }),
+  // eslint-disable-next-line promise/prefer-await-to-callbacks
   error => {
     if (error) {
       // eslint-disable-next-line no-console

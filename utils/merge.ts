@@ -33,6 +33,8 @@ export type Merge<T extends unknown[]> = {
 }[T extends [unknown, unknown, ...unknown[]] ? 1 : 0]
 
 export let merge = <T extends unknown[]>(...objs: T): Merge<T> => {
-  if (objs.length < 2) return objs[0]
+  if (objs.length < 2) {
+    return objs[0]
+  }
   return merge2(objs[0], merge(...objs.slice(1)))
 }

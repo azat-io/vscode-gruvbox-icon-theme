@@ -16,7 +16,7 @@
     "customization"
   ],
   "engines": {
-    "node": ">=19",
+    "node": ">=18",
     "vscode": "^1.75.0"
   },
   "galleryBanner": {
@@ -51,20 +51,13 @@
     "test": "pnpm test:types && pnpm lint"
   },
   "devDependencies": {
+    "@azat-io/eslint-config-typescript": "^0.6.1",
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
-    "@logux/eslint-config": "^49.0.0",
     "@types/node": "^18.15.11",
     "@types/vscode": "^1.77.0",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
     "bumpp": "^9.1.0",
     "eslint": "^8.37.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-prefer-let": "^3.0.1",
-    "eslint-plugin-promise": "^6.1.1",
     "puppeteer": "^19.8.2",
     "simple-git-hooks": "^2.8.1",
     "standard-version": "^9.5.0",
