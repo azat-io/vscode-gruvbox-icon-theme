@@ -14,12 +14,16 @@ let createScreenshot = async (
   icons: BaseIcon[],
 ): Promise<void> => {
   try {
-    let browser = await puppeteer.launch()
+    let browser = await puppeteer.launch({
+      headless: true,
+    })
+
     let page = await browser.newPage()
     let numOfItemsPerLine = 12
     let itemSize = 64
     let paddingSize = 16
     let gapSize = 16
+
     await page.setViewport({
       height: 10,
       width:

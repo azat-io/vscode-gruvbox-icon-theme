@@ -51,9 +51,11 @@ let getIcons = (): IconSchema => {
   let iconDefinitions = {}
   let fileExtensions = {}
   let fileNames = {}
+
   let light = {
     file: 'file_light',
   }
+
   let addIconDefinition =
     (type: string) =>
     ({ id, light: lightValue }: { id: string; light?: boolean }): void => {
@@ -62,6 +64,7 @@ let getIcons = (): IconSchema => {
           iconPath: `../icons/${type}/${id}.svg`,
         },
       })
+
       if (lightValue) {
         Object.assign(iconDefinitions, {
           [`${id}_light`]: {
@@ -70,9 +73,13 @@ let getIcons = (): IconSchema => {
         })
       }
     }
+
   baseIcons.forEach(addIconDefinition('base'))
+
   languagesIcons.forEach(addIconDefinition('files'))
+
   filesIcons.forEach(addIconDefinition('files'))
+
   languagesIcons.forEach(({ id, extensions, light: lightValue }) => {
     Object.assign(
       fileExtensions,
@@ -84,6 +91,7 @@ let getIcons = (): IconSchema => {
         {},
       ),
     )
+
     if (lightValue) {
       light = merge(light, {
         fileExtensions: extensions.reduce(
@@ -96,6 +104,7 @@ let getIcons = (): IconSchema => {
       })
     }
   })
+
   filesIcons.forEach(({ id, files, light: lightValue }) => {
     Object.assign(
       fileNames,
@@ -107,6 +116,7 @@ let getIcons = (): IconSchema => {
         {},
       ),
     )
+
     if (lightValue) {
       light = merge(light, {
         fileNames: files.reduce(
@@ -119,6 +129,7 @@ let getIcons = (): IconSchema => {
       })
     }
   })
+
   return {
     iconDefinitions,
     fileExtensions,
