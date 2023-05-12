@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.8.0...v0.8.1) (2023-05-12)
+
+
+### Features
+
+* support eslint flat config files ([9b553e0](https://github.com/azat-io/vscode-gruvbox-icon-theme/commit/9b553e002bb1811965fd6be6fcec021e888f254e))
+
 ## [0.8.0](https://github.com/azat-io/vscode-gruvbox-icon-theme/compare/v0.7.0...v0.8.0) (2023-02-11)
 
 
