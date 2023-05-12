@@ -89,6 +89,7 @@ export let filesIcons: FileIcon[] = [
       '.eslintignore',
       '.eslintcache',
       '.eslint.config.js',
+      'eslint.config.js',
     ],
   },
   {
