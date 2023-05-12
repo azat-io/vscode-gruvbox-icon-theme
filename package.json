@@ -2,7 +2,7 @@
   "name": "vscode-gruvbox-icon-theme",
   "displayName": "Gruvbox Icon Theme",
   "description": "Gruvbox style icons for Visual Studio Code",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "type": "module",
   "repository": "azat-io/vscode-gruvbox-icon-theme",
   "author": "Azat S. <to@azat.io>",
