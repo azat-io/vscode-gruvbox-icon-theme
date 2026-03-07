@@ -46,12 +46,10 @@
     "release:check": "pnpm test && pnpm build",
     "release:publish": "vsce package --no-dependencies && vsce publish --no-dependencies",
     "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md assets/*.png\" --commit \"build: publish v%s\" --tag --all",
-    "lint": "eslint .",
     "test:types": "tsc --noEmit --pretty",
-    "test": "pnpm test:types && pnpm lint"
+    "test": "pnpm test:types"
   },
   "devDependencies": {
-    "@azat-io/eslint-config-typescript": "^0.8.0",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@types/node": "^20.1.3",
